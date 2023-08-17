@@ -6,16 +6,17 @@
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 12:01:32 by pteh              #+#    #+#             */
-/*   Updated: 2023/08/17 12:17:23 by pteh             ###   ########.fr       */
+/*   Updated: 2023/08/17 12:21:27 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
 # define FT_POINT_H
 
-typedef int	*t_point;
-
-# define point->(val) (int *val)
-
+typedef struct s_point
+{
+	int	x;
+	int	y;
+}	t_point;
 
 #endif
